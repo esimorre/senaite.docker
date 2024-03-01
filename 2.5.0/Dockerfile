@@ -61,7 +61,7 @@ WORKDIR $SENAITE_INSTANCE_HOME
 VOLUME /data
 
 # Expose instance port
-EXPOSE 8080
+EXPOSE 80
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["start"]
